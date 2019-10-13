@@ -22,7 +22,6 @@ while True:
         for (x,y,w,h) in stop:
             if ((x>0)or(y>0)or(h>0)or(w>0)):
                 count+=1
-            #print(count)
                 print ("speed limit 50")
                 if(count==1):
                     break
